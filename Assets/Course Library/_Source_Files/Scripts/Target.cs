@@ -10,7 +10,7 @@ public class Target : MonoBehaviour
     private float xRange = 4;
     private float ySpawnPos = -6;
     private Rigidbody targetRb;
-    private GameManager gameManager;
+    public GameManager gameManager;
     public int pointValue;
     public ParticleSystem explosiveParticles;
     void Start()
